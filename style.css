@@ -2,3 +2,37 @@
     background-color:#323949;
     background-size: cover;
 }
+
+.fade1s{
+    animation: fade1 linear 1s forwards;
+}
+
+@keyframes fade1 {
+    0% { opacity: 0; }
+  100% { opacity: 1;}
+}
+
+.fade3s{
+    animation: fade2 linear 3s forwards;
+}
+
+@keyframes fade2 {
+    0% { opacity: 0; }
+    50%{opacity:0;}
+  100% { opacity: 1;}
+}
+
+.fade5s{
+    animation: fade3 linear 5s forwards;
+}
+
+@keyframes fade3 {
+    0% { opacity: 0; }
+    50%{opacity:0;}
+  100% { opacity: 1;}
+}
+
+.resp{
+    max-width: 100%;
+    height: auto;
+}
